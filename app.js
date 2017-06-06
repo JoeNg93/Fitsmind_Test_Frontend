@@ -85,4 +85,10 @@ app.controller('tourMapCtrl', ['$scope', 'NgMap', function ($scope, NgMap) {
     markers.forEach(marker => marker.setMap(null));
   }
 
+  $scope.placeChanged = function () {
+    let place = this.getPlace();
+    tourMap.setCenter(place.geometry.location);
+    console.log('HEee');
+  };
+
 }]);
