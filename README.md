@@ -20,3 +20,8 @@ Clone the project and run index.html
 + Haven't dispatch tours/waypoints to drivers
 + Cannot remove a waypoint from a tour
 
+# Demo
+
+![Image](./demo_pics/Demo_1.png)
+
+![Image](./demo_pics/Demo_2.png)
